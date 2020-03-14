@@ -4,6 +4,8 @@ images/
 teste/
 logs/
 *.h5
+*.png
+*.jpg
 results/
 temp/
 test/
