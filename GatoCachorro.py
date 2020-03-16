@@ -71,4 +71,4 @@ if __name__ == '__main__':
     
     print('Detectando em ' + args.imagem + '...')
     detectar_classes(modelo, args.imagem)
-    print("Arquivo salvo em " + nome_arquivo + "_detectado.png")
+    print("Arquivo salvo em " + '.'.join(args.imagem.split('.')[:-1]) + "_detectado.png")
